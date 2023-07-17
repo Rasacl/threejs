@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #25363d;
+}
+canvas{
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.page{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  color: #fff;
+  margin: 60px;
+  flex-direction: column;
+  align-items: center;
+}
+.page h1{
+  font-size: 40px;
+}
+.page h3{
+  font-size: 30px;
+}
