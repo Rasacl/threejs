@@ -25,3 +25,8 @@ canvas{
 .page h3{
   font-size: 30px;
 }
+
+/*隐藏滚动条*/
+::-webkit-scrollbar{
+  display: none;
+}
